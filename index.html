@@ -1,22 +1,196 @@
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!doctype html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <title>厨房卫士</title>
-        <meta name="keywords" content="无烟厨房,无烟净味厨房,无烟净味防爆厨房,青岛无烟厨房,青岛厨房卫士，青岛无烟净味厨房，青岛无烟净味防爆厨房" />
-        <meta name="description" content="物联网技术实现厨房无烟净味防爆" />
+<head>
+    <meta charset="UTF-8">
+    <title>厨房卫士</title>
+    <meta name="keywords" content="厨房卫士" />
+    <meta name="description" content="厨房卫士——无烟厨房先驱" />
+    <meta name="viewport" id="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="厨房卫士">
+    <meta name="format-detection" content="telephone=no">
+    <script
+        type="text/javascript">window.bd && bd._qdc && bd._qdc.init({ app_id: '471e133ea2e5cccb4405cdad' });</script>
+    <link href="static/css/index.css" rel="stylesheet">
+    <link href="static/css/responsive.css" rel="stylesheet">
+    <script type="text/javascript" src="static/js/jquery-1.8.3.min.js"></script>
+    <script src="static/js/common.js"></script>
+    <script src="static/js/jquery.touchwipe.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery.banner.revolution.min.js"></script>
+    <script type="text/javascript" src="static/js/banner.js"></script>
+    <script type="text/javascript" src="static/js/swiper.scrollbar-1.2.js"></script>
+    <script type="text/javascript" src="static/js/swiper-1.9.1.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery.fs.boxer.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery.slides.min.js"></script>
+    <script type="text/javascript" src="static/js/customs.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+  <script src="static/js/html5shiv.min.js"></script>
+  <script src="static/js/respond.min.js"></script>
+<![endif]-->
+    <script src="static/js/jquery.isotope.min.js"></script>
+    <script src="static/js/custom.js"></script>
+    <script src="static/js/modernizr.custom.js"></script>
 </head>
 
 <body>
-   <div><video src="https://vdse.bdstatic.com//4238b948f465c1b92fe6ffd698ca1c38.mp4?authorization=bce-auth-v1%2F40f207e648424f47b2e3dfbb1014b1a5%2F2020-10-21T21%3A24%3A38Z%2F-1%2Fhost%2Fd5d3427dc390772fc0994cd26aa8d880293683ed3350b728d5bb3f14502ea0fd" controls="controls">
-您的浏览器不支持 video 标签。
-</video></div>
-    <div><video src="https://vdse.bdstatic.com//5fa843ba6343d9e752040704bb5f0b9e.mp4?authorization=bce-auth-v1%2F40f207e648424f47b2e3dfbb1014b1a5%2F2021-05-10T03%3A09%3A20Z%2F-1%2Fhost%2F4d894c959ff4c19ea76c972c739d23651961f5afc96642c1cef333d6ef951a4e" controls="controls">
-您的浏览器不支持 video 标签。
-</video></div>
-    
+    <link rel="stylesheet" type="text/css" media="all" href="static/css/style.css" />
+    <!-- 头部 -->
+    <header class="header">
+        <div class="container ">
+            <!-- 网站Logo -->
+            <div class="logo-main fl">
+                <a class="logo left" href="index.html" title="">厨房卫士</a>
+            </div>
+            <!-- 网站Logo end -->
+            <!-- 导航菜单 -->
+            <nav class="header-menu fr">
+                <div>
+                    <ul id="" class="menu">
+                        <li class="menu-item"><a href="index.html">关于厨房卫士<span>ABOUT</span></a></li>
+                        <li class="menu-item"><a href="news.html">案例<span>CASES</span></a></li>
+                        <li class="menu-item"><a href="join.html">加盟厨房卫士<span>JOIN</span></a></li>
+                        <li class="menu-item "><a href="media.html">媒体报道<span>MEDIA</span></a></li>
+                        <li class="menu-item "><a href="contact.html">联系厨房卫士<span>CONTACT</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- 导航菜单end -->
+        </div>
+    </header>
+    <div class="clearfix"></div>
+    <!-- 头部end -->
+    <script>
+        $(function () {
+            var swiper = new Swiper('.swiper1', {
+                pagination: '.pagination1',
+                loop: true,
+                grabCursor: true
+            });
+            //Navigation arrows
+            $('.arrow-left').click(function (e) {
+                e.preventDefault()
+                swiper.swipePrev()
+            });
+            $('.arrow-right').click(function (e) {
+                e.preventDefault()
+                swiper.swipeNext()
+            });
+            //Clickable pagination
+            $('.pagination1 .swiper-pagination-switch').click(function () {
+                swiper.swipeTo($(this).index())
+            })
+        });
+    </script>
+    <div class="fullwidthbanner-container">
+        <div class="b_shadow"></div>
+        <div class="fullwidthbanner">
+            <ul>
+                <li>
+                    <img src="static/picture/banner.jpg" alt="" />
+                </li>
+                <li>
+                    <img src="static/picture/banner1.jpg" alt="" />
+                </li>
+                <li>
+                    <img src="static/picture/banner2.jpg" alt="" />
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="home-device">
+        <a class="arrow-left" href="#"></a>
+        <a class="arrow-right" href="#"></a>
+        <div class="swiper-main">
+            <div class="swiper-container swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="" title="" target="_blank"><img src="static/picture/sbanner.jpg"
+                                alt="" /></a></div>
+                    <div class="swiper-slide"><a href="" title="" target="_blank"><img src="static/picture/sbanner1.jpg"
+                                alt="" /></a></div>
+                    <div class="swiper-slide"><a href="" title="" target="_blank"><img src="static/picture/sbanner2.jpg"
+                                alt="" /></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="pagination pagination1"></div>
+    </div>
+    <!--news-->
+    <div class="in_news">
+        <div class="container">
+            <div class="in_toptt">
+                <h1>CASES</h1>
+                <h4>最新鲜视角，最专业的理论看待资讯的变迁</h4>
+                <small>Most fresh perspective, look at changes in the most professional information theory</small>
+            </div>
+            <section class="in_newslist clearfix col-md-3">
+                <div class="box box-l" init="false">
+                    <a class="shadow" href="newsview_zhongjie.html" target="_blank">
+                        <div class="ibox clearfix">
+                            <div class="img">
+                                <img src="static/picture/xw1.jpg" alt="" />
+                                <h3>中杰房产案例</h3>
+                                <p> &nbsp;&nbsp;简易版厨房卫士安装…… </p>
+                                <div class="new_detial"><a href="newsview_zhongjie.html">详细</a></div>
+                            </div>
+
+                        </div>
+                        <div class='shadow-line'></div>
+                    </a>
+                </div>
+            </section>
+            <section class="in_newslist clearfix col-md-3">
+                <div class="box box-l" init="false">
+                    <a class="shadow" href="newsview_yulong.html" target="_blank">
+                        <div class="ibox clearfix">
+                            <div class="img">
+                                <img src="static/picture/xw1.jpg" alt="" />
+                                <h3>裕龙房产案例</h3>
+                                <p> &nbsp;&nbsp;定制版厨房卫士安装…… </p>
+                                <div class="new_detial"><a href="newsview_yulong.html">详细</a></div>
+                            </div>
+
+                        </div>
+                        <div class='shadow-line'></div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--news-->
+    <!--about us-->
+    <div class="in_about">
+        <div class="container">
+            <div class="in_toptt">
+                <h1>ABOUT US</h1>
+                <h4>开创独特的厨房文化，成就人类美好健康厨房生活</h4>
+                <small>Create a unique kitchen culture, achievements of mankind for a better life healthy
+                    kitchen</small>
+            </div>
+            <div class="in_aboutcon clearfix">
+                <img src="static/picture/about_pic.jpg" />
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;随着天然气、液化气（一下简称燃气）的推广应用，现已占到家庭做饭的90%。厨房的燃气泄漏引起的事故每年各地区均有发生，事故绝大部分是由于燃气轻微泄漏、厨房门窗紧闭，燃气一旦超过空气浓度百分之五以上，遇明火和开关电器，瞬间发生爆炸，厨房的抽烟油机高档的也只能抽走百分之八十五左右的油烟，剩下的百分之十五存在于厨房的上半部分，最终变成油脂吸附厨房的天棚、墙壁及吊橱上，给我们带来清楚上的麻烦。<br />
+                &nbsp;&nbsp;&nbsp;&nbsp; 厨房卫士是针对厨房安全及健康存在的弊端而研制的，它使用寿命长（低电压）维护方便，价格合理，自动化程度高。
+
+            </div>
+        </div>
+    </div>
+    <!--about us-->
+    <footer>
+        <div class="container ">
+            <div class="footer_l fl">
+                <div class="clearfix links">
+                    <a href="about.html">关于厨房卫士</a>|<a href="news.html">案例</a>|<a href="join.html">加盟厨房卫士</a>|<a
+                        href="media.html">媒体报道</a>|<a href="contact.html">联系厨房卫士</a>
+                </div>
+                <div class="copy">版权所有： @2021 厨房卫士 <br />
+                    电话：13296395988 微信同号 技术支持：<a href="http://www.codingfly.site">佰鸣洋网络科技</a></div>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
